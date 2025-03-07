@@ -1,0 +1,13 @@
+prefix=/Users/helen/Downloads/BEMM458 Programming/coffee_company/.conda
+exec_prefix=/Users/helen/Downloads/BEMM458 Programming/coffee_company/.conda
+libdir=/Users/helen/Downloads/BEMM458 Programming/coffee_company/.conda/lib
+sharedlibdir=/Users/helen/Downloads/BEMM458 Programming/coffee_company/.conda/lib
+includedir=/Users/helen/Downloads/BEMM458 Programming/coffee_company/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
